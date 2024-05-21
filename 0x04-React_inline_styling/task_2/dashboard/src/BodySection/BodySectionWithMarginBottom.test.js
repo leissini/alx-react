@@ -1,10 +1,9 @@
 import React from "react";
 import { shallow } from 'enzyme';
 import BodySectionWithMarginBottom from './BodySectionWithMarginBottom';
-import { StyleSheetTestUtils } from "aphrodite";
+import { StyleSheetTestUtils } from 'aphrodite';
 
 describe("Testing BodySectionWithMarginBottom Component",() => {
-
   beforeEach(() => {
     StyleSheetTestUtils.suppressStyleInjection();
   });

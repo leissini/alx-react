@@ -1,10 +1,9 @@
 import React from "react";
 import { shallow } from "enzyme";
 import CourseListRow from "./CourseListRow";
-import { StyleSheetTestUtils } from "aphrodite";
+import { StyleSheetTestUtils } from 'aphrodite';
 
 describe("Testing <CourseListRow />", () => {
-
   beforeEach(() => {
     StyleSheetTestUtils.suppressStyleInjection();
   });

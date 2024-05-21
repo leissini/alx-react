@@ -1,10 +1,9 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
 import CourseList from "./CourseList";
-import { StyleSheetTestUtils } from "aphrodite";
+import { StyleSheetTestUtils } from 'aphrodite';
 
 describe("Testing <CourseList />", () => {
-
   beforeEach(() => {
     StyleSheetTestUtils.suppressStyleInjection();
   });

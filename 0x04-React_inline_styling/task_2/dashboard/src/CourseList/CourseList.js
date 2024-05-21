@@ -4,7 +4,6 @@ import CourseShape from './CourseShape';
 import CourseListRow from './CourseListRow';
 import {  StyleSheet, css } from 'aphrodite';
 
-
 function CourseList({ listCourses }) {
   return (
     <table id="CourseList" cellPadding="0" cellSpacing="0" className={css(courseListStyles.table)}>
@@ -26,7 +25,7 @@ function CourseList({ listCourses }) {
       </tbody>
     </table>
   );
-};
+}
 
 const courseListStyles = StyleSheet.create({
 	table: {

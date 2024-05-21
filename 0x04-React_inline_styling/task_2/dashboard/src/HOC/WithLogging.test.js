@@ -3,10 +3,9 @@ import { mount } from 'enzyme';
 import { jest } from '@jest/globals';
 import WithLogging from "./WithLogging";
 import Login from '../Login/Login';
-import { StyleSheetTestUtils } from "aphrodite";
+import { StyleSheetTestUtils } from 'aphrodite';
 
 describe("Testing WithLogging HOC", () => {
-
   beforeEach(() => {
     StyleSheetTestUtils.suppressStyleInjection();
   });
